@@ -56,7 +56,7 @@ class MyWindow(QMainWindow, ui):
         for i in range(iTblCnt):
             self.TablePstn.setColumnWidth(i, TPL_PSTN_FORM[i][0])
 
-
+        # 테이블그리드 헤더색상 변경
         style = "::section {""background-color: rgb(17,22,38); }"
         self.TablePstn.horizontalHeader().setStyleSheet(style)
 
