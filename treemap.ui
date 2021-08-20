@@ -1,0 +1,1493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>LinkWindow</class>
+ <widget class="QMainWindow" name="LinkWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>636</width>
+    <height>807</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTextBrowser" name="TxtBrLog">
+    <property name="geometry">
+     <rect>
+      <x>4</x>
+      <y>275</y>
+      <width>271</width>
+      <height>145</height>
+     </rect>
+    </property>
+    <property name="verticalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOn</enum>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="EditAcno">
+    <property name="geometry">
+     <rect>
+      <x>61</x>
+      <y>3</y>
+      <width>90</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="maxLength">
+     <number>11</number>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="EditPswd">
+    <property name="geometry">
+     <rect>
+      <x>214</x>
+      <y>3</y>
+      <width>55</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="maxLength">
+     <number>11</number>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="TablePrc">
+    <property name="geometry">
+     <rect>
+      <x>279</x>
+      <y>27</y>
+      <width>352</width>
+      <height>245</height>
+     </rect>
+    </property>
+    <property name="verticalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOff</enum>
+    </property>
+    <property name="horizontalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOff</enum>
+    </property>
+    <property name="rowCount">
+     <number>11</number>
+    </property>
+    <property name="columnCount">
+     <number>5</number>
+    </property>
+    <attribute name="horizontalHeaderVisible">
+     <bool>true</bool>
+    </attribute>
+    <attribute name="horizontalHeaderCascadingSectionResizes">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>70</number>
+    </attribute>
+    <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="verticalHeaderVisible">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="verticalHeaderDefaultSectionSize">
+     <number>20</number>
+    </attribute>
+    <attribute name="verticalHeaderMinimumSectionSize">
+     <number>20</number>
+    </attribute>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <column>
+     <property name="text">
+      <string>증감</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>매도잔량</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>호가</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>매수잔량</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>증감</string>
+     </property>
+    </column>
+    <item row="0" column="0">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignTrailing|AlignVCenter</set>
+     </property>
+     <property name="background">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>207</red>
+        <green>229</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </property>
+    </item>
+    <item row="0" column="1">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="background">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>207</red>
+        <green>229</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </property>
+    </item>
+    <item row="0" column="2">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="background">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>207</red>
+        <green>229</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </property>
+    </item>
+    <item row="1" column="0">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignTrailing|AlignVCenter</set>
+     </property>
+     <property name="background">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>207</red>
+        <green>229</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </property>
+    </item>
+    <item row="1" column="1">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="background">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>207</red>
+        <green>229</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </property>
+    </item>
+    <item row="1" column="2">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="background">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>207</red>
+        <green>229</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </property>
+    </item>
+    <item row="2" column="0">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignTrailing|AlignVCenter</set>
+     </property>
+     <property name="background">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>207</red>
+        <green>229</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </property>
+    </item>
+    <item row="2" column="1">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="background">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>207</red>
+        <green>229</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </property>
+    </item>
+    <item row="2" column="2">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="background">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>207</red>
+        <green>229</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </property>
+    </item>
+    <item row="3" column="0">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="background">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>207</red>
+        <green>229</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </property>
+    </item>
+    <item row="3" column="1">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="background">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>207</red>
+        <green>229</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </property>
+    </item>
+    <item row="3" column="2">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="background">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>207</red>
+        <green>229</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </property>
+    </item>
+    <item row="4" column="0">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="background">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>207</red>
+        <green>229</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </property>
+    </item>
+    <item row="4" column="1">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="background">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>207</red>
+        <green>229</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </property>
+    </item>
+    <item row="4" column="2">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="background">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>207</red>
+        <green>229</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </property>
+    </item>
+    <item row="5" column="2">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="background">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>221</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </item>
+    <item row="5" column="3">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="background">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>221</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </item>
+    <item row="5" column="4">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="background">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>221</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </item>
+    <item row="6" column="2">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="background">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>221</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </item>
+    <item row="6" column="3">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="background">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>221</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </item>
+    <item row="6" column="4">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="background">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>221</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </item>
+    <item row="7" column="2">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="background">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>221</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </item>
+    <item row="7" column="3">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="background">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>221</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </item>
+    <item row="7" column="4">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="background">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>221</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </item>
+    <item row="8" column="2">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="background">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>221</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </item>
+    <item row="8" column="3">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="background">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>221</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </item>
+    <item row="8" column="4">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="background">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>221</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </item>
+    <item row="9" column="2">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="background">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>221</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </item>
+    <item row="9" column="3">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="background">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>221</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </item>
+    <item row="9" column="4">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="background">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>255</red>
+        <green>221</green>
+        <blue>207</blue>
+       </color>
+      </brush>
+     </property>
+    </item>
+    <item row="10" column="2">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="background">
+      <brush brushstyle="NoBrush">
+       <color alpha="255">
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </brush>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>7</y>
+      <width>48</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>계좌번호</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>163</x>
+      <y>7</y>
+      <width>48</width>
+      <height>12</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>비밀번호</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="TableTick">
+    <property name="geometry">
+     <rect>
+      <x>279</x>
+      <y>275</y>
+      <width>352</width>
+      <height>145</height>
+     </rect>
+    </property>
+    <property name="verticalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOn</enum>
+    </property>
+    <property name="horizontalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOff</enum>
+    </property>
+    <property name="rowCount">
+     <number>6</number>
+    </property>
+    <property name="columnCount">
+     <number>5</number>
+    </property>
+    <attribute name="horizontalHeaderVisible">
+     <bool>true</bool>
+    </attribute>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>66</number>
+    </attribute>
+    <attribute name="verticalHeaderVisible">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="verticalHeaderDefaultSectionSize">
+     <number>20</number>
+    </attribute>
+    <attribute name="verticalHeaderMinimumSectionSize">
+     <number>20</number>
+    </attribute>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <column>
+     <property name="text">
+      <string>시간</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>체결가</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>대비</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>체결량</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>체결강도</string>
+     </property>
+    </column>
+    <item row="0" column="0">
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+    <item row="1" column="0">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </item>
+    <item row="1" column="1">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignTrailing|AlignVCenter</set>
+     </property>
+    </item>
+    <item row="1" column="2">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignTrailing|AlignVCenter</set>
+     </property>
+    </item>
+    <item row="1" column="3">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignTrailing|AlignVCenter</set>
+     </property>
+    </item>
+    <item row="1" column="4">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignJustify|AlignVCenter</set>
+     </property>
+    </item>
+    <item row="2" column="3">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignTrailing|AlignVCenter</set>
+     </property>
+    </item>
+    <item row="2" column="4">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="textAlignment">
+      <set>AlignTrailing|AlignVCenter</set>
+     </property>
+    </item>
+   </widget>
+   <widget class="QTableWidget" name="TablePstn">
+    <property name="geometry">
+     <rect>
+      <x>4</x>
+      <y>617</y>
+      <width>625</width>
+      <height>142</height>
+     </rect>
+    </property>
+    <property name="verticalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOn</enum>
+    </property>
+    <property name="horizontalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOn</enum>
+    </property>
+    <property name="rowCount">
+     <number>5</number>
+    </property>
+    <property name="columnCount">
+     <number>9</number>
+    </property>
+    <attribute name="horizontalHeaderVisible">
+     <bool>true</bool>
+    </attribute>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>66</number>
+    </attribute>
+    <attribute name="verticalHeaderVisible">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="verticalHeaderDefaultSectionSize">
+     <number>20</number>
+    </attribute>
+    <attribute name="verticalHeaderMinimumSectionSize">
+     <number>20</number>
+    </attribute>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <column>
+     <property name="text">
+      <string>종목코드</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>종목명</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>잔고수량</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>매수수량</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>매도수량</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>매입단가</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>매입금액</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>평가금액</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>평가손익</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QPushButton" name="BtnPstn">
+    <property name="geometry">
+     <rect>
+      <x>551</x>
+      <y>592</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>잔고조회</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="BtnPrc">
+    <property name="geometry">
+     <rect>
+      <x>553</x>
+      <y>2</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>실시간 시세</string>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="TableTrd">
+    <property name="geometry">
+     <rect>
+      <x>4</x>
+      <y>448</y>
+      <width>625</width>
+      <height>142</height>
+     </rect>
+    </property>
+    <property name="verticalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOn</enum>
+    </property>
+    <property name="horizontalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOn</enum>
+    </property>
+    <property name="rowCount">
+     <number>5</number>
+    </property>
+    <property name="columnCount">
+     <number>11</number>
+    </property>
+    <attribute name="horizontalHeaderVisible">
+     <bool>true</bool>
+    </attribute>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>66</number>
+    </attribute>
+    <attribute name="verticalHeaderVisible">
+     <bool>false</bool>
+    </attribute>
+    <attribute name="verticalHeaderDefaultSectionSize">
+     <number>20</number>
+    </attribute>
+    <attribute name="verticalHeaderMinimumSectionSize">
+     <number>20</number>
+    </attribute>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <row/>
+    <column>
+     <property name="text">
+      <string>주문번호</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>원주문</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>종목코드</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>종목명</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>주문구분</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>매매구분</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>주문수량</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>주문가격</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>미체결</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>체결수량</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>체결단가</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>4</x>
+      <y>28</y>
+      <width>274</width>
+      <height>222</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tabBuySell">
+     <attribute name="title">
+      <string>매수/매도</string>
+     </attribute>
+     <widget class="QComboBox" name="CmbBns">
+      <property name="geometry">
+       <rect>
+        <x>63</x>
+        <y>30</y>
+        <width>120</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>010 지정가</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>020 시장가</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>030 조건부지정가</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>040 최유리지정가</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>050 최우선지정가</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>9</x>
+        <y>103</y>
+        <width>50</width>
+        <height>12</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>주문조건</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>9</x>
+        <y>57</y>
+        <width>50</width>
+        <height>12</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>주문가격</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="EditCode">
+      <property name="geometry">
+       <rect>
+        <x>63</x>
+        <y>7</y>
+        <width>70</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="maxLength">
+       <number>11</number>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="EditQty">
+      <property name="geometry">
+       <rect>
+        <x>63</x>
+        <y>76</y>
+        <width>70</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="inputMethodHints">
+       <set>Qt::ImhDigitsOnly</set>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="maxLength">
+       <number>7</number>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="EditPrc">
+      <property name="geometry">
+       <rect>
+        <x>63</x>
+        <y>53</y>
+        <width>70</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="inputMethodHints">
+       <set>Qt::ImhDigitsOnly</set>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="maxLength">
+       <number>9</number>
+      </property>
+      <property name="frame">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>9</x>
+        <y>34</y>
+        <width>50</width>
+        <height>12</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>주문유형</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="CmbCnd">
+      <property name="geometry">
+       <rect>
+        <x>63</x>
+        <y>99</y>
+        <width>80</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>0 없음</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>1 IOC</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>2 FOK</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>9</x>
+        <y>80</y>
+        <width>50</width>
+        <height>12</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>주문수량</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>9</x>
+        <y>12</y>
+        <width>50</width>
+        <height>12</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>종목코드</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BtnBuy">
+      <property name="geometry">
+       <rect>
+        <x>9</x>
+        <y>145</y>
+        <width>90</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>매수주문</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BtnSell">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>145</y>
+        <width>90</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>매도주문</string>
+      </property>
+     </widget>
+     <widget class="QTextBrowser" name="TxtBrNm">
+      <property name="geometry">
+       <rect>
+        <x>134</x>
+        <y>7</y>
+        <width>120</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="verticalScrollBarPolicy">
+       <enum>Qt::ScrollBarAlwaysOff</enum>
+      </property>
+     </widget>
+     <widget class="QTextBrowser" name="TxtBrOrdNo">
+      <property name="geometry">
+       <rect>
+        <x>63</x>
+        <y>172</y>
+        <width>70</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="verticalScrollBarPolicy">
+       <enum>Qt::ScrollBarAlwaysOff</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>9</x>
+        <y>176</y>
+        <width>50</width>
+        <height>12</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>주문번호</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tabMdCl">
+     <attribute name="title">
+      <string>정정/취소</string>
+     </attribute>
+     <widget class="QPushButton" name="BtnCncl">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>145</y>
+        <width>90</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>취소주문</string>
+      </property>
+     </widget>
+     <widget class="QTextBrowser" name="TxtBrOrdNo_2">
+      <property name="geometry">
+       <rect>
+        <x>63</x>
+        <y>172</y>
+        <width>70</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="verticalScrollBarPolicy">
+       <enum>Qt::ScrollBarAlwaysOff</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>9</x>
+        <y>12</y>
+        <width>50</width>
+        <height>12</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>종목코드</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="EditCode_2">
+      <property name="geometry">
+       <rect>
+        <x>63</x>
+        <y>7</y>
+        <width>70</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="maxLength">
+       <number>11</number>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="EditQty_2">
+      <property name="geometry">
+       <rect>
+        <x>63</x>
+        <y>76</y>
+        <width>70</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="inputMethodHints">
+       <set>Qt::ImhDigitsOnly</set>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="maxLength">
+       <number>11</number>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="EditPrc_2">
+      <property name="geometry">
+       <rect>
+        <x>63</x>
+        <y>53</y>
+        <width>70</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="inputMethodHints">
+       <set>Qt::ImhDigitsOnly</set>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="maxLength">
+       <number>11</number>
+      </property>
+      <property name="frame">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_11">
+      <property name="geometry">
+       <rect>
+        <x>9</x>
+        <y>34</y>
+        <width>50</width>
+        <height>12</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>원주문</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BtnMdfy">
+      <property name="geometry">
+       <rect>
+        <x>9</x>
+        <y>145</y>
+        <width>90</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>정정주문</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_12">
+      <property name="geometry">
+       <rect>
+        <x>9</x>
+        <y>57</y>
+        <width>50</width>
+        <height>12</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>주문가격</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_13">
+      <property name="geometry">
+       <rect>
+        <x>9</x>
+        <y>80</y>
+        <width>50</width>
+        <height>12</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>주문수량</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_14">
+      <property name="geometry">
+       <rect>
+        <x>9</x>
+        <y>176</y>
+        <width>50</width>
+        <height>12</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>주문번호</string>
+      </property>
+     </widget>
+     <widget class="QTextBrowser" name="TxtBrNm_2">
+      <property name="geometry">
+       <rect>
+        <x>134</x>
+        <y>7</y>
+        <width>120</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="verticalScrollBarPolicy">
+       <enum>Qt::ScrollBarAlwaysOff</enum>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="EditOOrdNo">
+      <property name="geometry">
+       <rect>
+        <x>63</x>
+        <y>30</y>
+        <width>70</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="inputMethodHints">
+       <set>Qt::ImhDigitsOnly</set>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="maxLength">
+       <number>11</number>
+      </property>
+      <property name="frame">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QTextBrowser" name="TxtBrErr">
+    <property name="geometry">
+     <rect>
+      <x>4</x>
+      <y>252</y>
+      <width>271</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="verticalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOff</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="BtnTrd">
+    <property name="geometry">
+     <rect>
+      <x>551</x>
+      <y>423</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>주문조회</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>636</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <tabstops>
+  <tabstop>EditAcno</tabstop>
+  <tabstop>EditPswd</tabstop>
+  <tabstop>EditCode</tabstop>
+  <tabstop>CmbBns</tabstop>
+  <tabstop>EditPrc</tabstop>
+  <tabstop>EditQty</tabstop>
+  <tabstop>CmbCnd</tabstop>
+  <tabstop>BtnBuy</tabstop>
+  <tabstop>BtnSell</tabstop>
+  <tabstop>TxtBrErr</tabstop>
+  <tabstop>TxtBrLog</tabstop>
+  <tabstop>tabWidget</tabstop>
+  <tabstop>BtnPrc</tabstop>
+  <tabstop>BtnTrd</tabstop>
+  <tabstop>BtnPstn</tabstop>
+  <tabstop>TxtBrNm</tabstop>
+  <tabstop>TxtBrOrdNo</tabstop>
+  <tabstop>TablePrc</tabstop>
+  <tabstop>TableTick</tabstop>
+  <tabstop>TableTrd</tabstop>
+  <tabstop>TablePstn</tabstop>
+  <tabstop>EditCode_2</tabstop>
+  <tabstop>EditOOrdNo</tabstop>
+  <tabstop>EditPrc_2</tabstop>
+  <tabstop>EditQty_2</tabstop>
+  <tabstop>BtnMdfy</tabstop>
+  <tabstop>BtnCncl</tabstop>
+  <tabstop>TxtBrNm_2</tabstop>
+  <tabstop>TxtBrOrdNo_2</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
